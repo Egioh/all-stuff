@@ -1,0 +1,13 @@
+﻿Console.WriteLine("Веддите координату Хa: ");
+int xa = int.Parse(Console.ReadLine());
+Console.WriteLine("Веддите координату Ya: ");
+int ya = int.Parse(Console.ReadLine());
+Console.WriteLine("Веддите координату Хb: ");
+int xb = int.Parse(Console.ReadLine());
+Console.WriteLine("Веддите координату Yb: ");
+int yb = int.Parse(Console.ReadLine());
+double A = Math.Pow((xb-xa),2);
+double B = Math.Pow((yb-ya),2);
+double distance = Math.Sqrt(A+B);
+//double distance = Math.Sqrt(((xb*xb)-(xa*xa))+((yb*yb)-(ya*ya)));
+Console.WriteLine(distance);
